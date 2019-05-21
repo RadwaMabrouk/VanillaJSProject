@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 80vw;
+    margin: 0 auto;
+}
+.fistSection{
+    margin-bottom: 3em;
+}
+h1{
+    font-size: 2em;
+    width: 41%;
+}
+i{
+    color: #343a40;
+    margin-right: 0.7em;
+    font-size: 0.6em;
+}
+/* headerSection */
+.headerSection {
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: 3fr 3fr  1fr;
+    border-bottom: 1px solid gray;
+    padding: 2em;
+    font-size: 1.2em;
+}
+
+h4{
+    margin-top:0;
+}
+article{
+    border: 1px solid gray;
+    padding: 2em;
+    width: 100%;
+    height: 100%;
+}
+#allPosts p {
+    border-bottom: 1px solid gray;
+    padding: 2em; 
+    margin-bottom: 3em;
+}
+/* #allPosts h2 {
+   color:  #83c0c9;
+} */
+
+.headerSection a{
+    text-decoration: none;
+}
+/* nav */
+nav a{
+    text-decoration: none;
+}
+nav .aPadding{
+    padding: 1.6em;
+}
+.nav-scroller .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+.text-muted {
+    color: #6c757d;
+}
+
+/* titlelonger */
+.firstPost{
+    background-color: #343a40; 
+    color: whitesmoke;
+    padding: 3em;
+    width: 100%;
+}
+.firstCard , .scondCard{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    grid-gap: 0.6em;
+}
+/* rapperGrid */
+.rapperGrid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 2em;
+    margin-top: 3em;
+}
+
+/* main */
+.articalCards{
+    margin-top: 3em; 
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1em;
+}
+
+/* aside section */
+.asideGrid a{
+    
+    color:#007bff; 
+}
+/* .asideGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+} */
+.listUnstyle{
+    padding-left: 0;
+} 
+.listUnstyle li{
+    list-style: none;
+    padding-top: 0.4em
+} 
+
+.listUnstyle li a{
+    text-decoration: none;
+    
+}
+
+/* about us */
+.asideGrid .aboutAs{
+    padding: 3em 3em 3em 1em;
+    background-color:#eaeaea;
+}
+.ArchivesContent , .Elsewhere , .aboutAs{
+    margin-bottom: 1em;
+    width: 100%;
+}
+.ArchivesContent , .Elsewhere  {
+    padding: 3em 3em 0em 1em;
+    font-size: 1.2em;
+    /* margin-left:1em;  */
+}

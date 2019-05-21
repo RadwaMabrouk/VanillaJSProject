@@ -1,0 +1,59 @@
+body{
+    width:85vw;
+    margin: 0 auto;
+    font-family: arial, sans-serif;
+    background-image: url(../imgs/new-bg-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed; 
+}
+
+table {
+
+    font-family: arial, sans-serif;
+    border-collapse: separate;
+   
+  }
+.stylepostName{
+    font-weight: bold;
+    font-size: 1.5em;
+}  
+th{
+    color: #727272;
+    font-weight: bolder;
+    font-size: 1.5em;
+}  
+
+td, th {
+    border: 1px solid #83c0c9;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+  
+tr:nth-child(even) {
+    background-color: #83c0c9;
+    color:  whitesmoke;
+  }
+.styleButtons{
+    padding: 0.2em;
+}
+ 
+button{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    
+
+    color: #83c0c9;
+    font-weight: bold;
+    background-color: whitesmoke;
+    border:  1px solid whitesmoke;
+    border-radius: 0.6em;
+    PADDING: 0.7em;
+    
+}
+.buttonDelete{
+    margin-top:0.2em;
+}
